@@ -1,20 +1,40 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-}
-h1 {
-    color: #333;
-    font-size: 3rem;
-    text-align: center;
-    animation: fadeIn 2s ease-in-out;
+    margin: 10;
+    padding: 10;
+
+    background-color: #fdf8da;
     
+}
+
+
+
+.name {
+  font-size: 64px;                /* Bigger font */
+  font-family: 'Poppins', sans-serif; /* Custom font family */
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+.summary {
+  font-size: 24px;                /* Bigger font */
+  font-family: 'Poppins', sans-serif; /* Custom font family */
+  font-weight: 400;
+  color: #666;
+  margin-top: 10px;
+}
+
+
+.libre-franklin-<uniquifier> {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
